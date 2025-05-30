@@ -1,0 +1,15 @@
+kidstrong_snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: your_account.region.snowflakecomputing.com
+      user: your_username
+      password: your_password
+      role: your_role
+      database: KidStrong_DW
+      warehouse: your_warehouse
+      schema: public
+      threads: 4
+      client_session_keep_alive: False
+      query_tag: dbt
